@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M1", "M1\M1.csproj", "{5D623375-3815-43A1-9009-4EEEE961E2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMMR", "DataMMR\DataMMR.csproj", "{6E3601BE-33AF-4110-90E4-29BB0B06FD02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D623375-3815-43A1-9009-4EEEE961E2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D623375-3815-43A1-9009-4EEEE961E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D623375-3815-43A1-9009-4EEEE961E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D623375-3815-43A1-9009-4EEEE961E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

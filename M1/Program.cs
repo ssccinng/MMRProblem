@@ -85,7 +85,7 @@ Console.WriteLine();
 
 while (endDistance.Any(s => s > 0))
 {
-    int maxReduceDis = 0;
+    int maxReduceDis = -9999;
     int nextNode = -1;
     int minCost = int.MaxValue;
     // 从canReach中找到一个点 使所有ends中的点到visited中的任意一点的距离和最小
@@ -97,16 +97,15 @@ while (endDistance.Any(s => s > 0))
             if (dis[node, ends[i]] < endDistance[i])
             {
                 reduceDis += endDistance[i] - dis[node, ends[i]];
-                endDistance[i] = dis[node, ends[i]];
             }
         }
-        if (reduceDis > maxReduceDis)
+        if (reduceDis - W[node] > maxReduceDis)
         {
-            maxReduceDis = reduceDis;
+            maxReduceDis = reduceDis - W[node];
             nextNode = node;
             minCost = W[node]; // 这个到底值不值还得撕烤
         }
-        else if (reduceDis ==  maxReduceDis)
+        else if (reduceDis - W[node] ==  maxReduceDis)
         {
             if (W[node]< minCost)
             {
@@ -115,6 +114,17 @@ while (endDistance.Any(s => s > 0))
             }
         }
     }
+
+
+    // 更新endDistance
+    for (int i = 0; i < ends.Length; i++)
+    {
+        if (dis[nextNode, ends[i]] < endDistance[i])
+        {
+            endDistance[i] = dis[nextNode, ends[i]];
+        }
+    }
+
 
     // 将这个点加入visited
     visited.Add(nextNode);

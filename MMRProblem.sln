@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M1", "M1\M1.csproj", "{5D62
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMMR", "DataMMR\DataMMR.csproj", "{6E3601BE-33AF-4110-90E4-29BB0B06FD02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteinerTree", "SteinerTree\SteinerTree.csproj", "{CDFD1A42-24B2-4F82-879D-DDC9D7E83AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3601BE-33AF-4110-90E4-29BB0B06FD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFD1A42-24B2-4F82-879D-DDC9D7E83AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFD1A42-24B2-4F82-879D-DDC9D7E83AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFD1A42-24B2-4F82-879D-DDC9D7E83AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFD1A42-24B2-4F82-879D-DDC9D7E83AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
